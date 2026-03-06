@@ -11,16 +11,16 @@ const About = () => {
 
         <p className="text-gray-400 max-w-2xl mx-auto text-lg">
           Mən frontend və web development ilə məşğul olan developerəm. Müasir
-          texnologiyalarla sürətli, responsiv və estetik saytlar hazırlamağı
+          texnologiyalarla sürətli, responsive və estetik saytlar hazırlamağı
           sevirəm.
         </p>
       </section>
 
       {/* Cards */}
       <section className="max-w-6xl mx-auto px-6 pb-20">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Card 1 */}
-          <div className="bg-gray-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+          <div className="bg-gray-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
             <User size={40} className="text-blue-500 mb-4" />
             <h3 className="text-xl font-semibold mb-3">Who I Am</h3>
             <p className="text-gray-400">
@@ -31,7 +31,7 @@ const About = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-gray-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+          <div className="bg-gray-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
             <Code size={40} className="text-blue-500 mb-4" />
             <h3 className="text-xl font-semibold mb-3">Skills</h3>
             <p className="text-gray-400">
@@ -42,7 +42,7 @@ const About = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-gray-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+          <div className="bg-gray-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
             <Globe size={40} className="text-blue-500 mb-4" />
             <h3 className="text-xl font-semibold mb-3">Goal</h3>
             <p className="text-gray-400">

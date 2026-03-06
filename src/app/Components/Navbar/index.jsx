@@ -23,16 +23,16 @@ const Navbar = () => {
           PashaDev
         </Link>
 
-        {/* Hamburger for mobile */}
-        {/* <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
+        {/*Hamburger for mobile */}
+        <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button> */}
+        </button>
 
         {/* Menu */}
         <div
-        // className={`flex-col md:flex-row md:flex items-center gap-6 md:static absolute top-full left-0 w-full md:w-auto bg-slate-900 md:bg-transparent transition-all ${
-        //   menuOpen ? "flex" : "hidden"
-        // }`}
+          className={`flex-col md:flex-row md:flex items-center gap-6 md:static absolute top-full left-0 w-full md:w-auto bg-slate-900 md:bg-transparent transition-all ${
+            menuOpen ? "flex" : "hidden"
+          }`}
         >
           {links.map(({ id, title, path }) => {
             return (
