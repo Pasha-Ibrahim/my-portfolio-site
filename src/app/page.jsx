@@ -1,36 +1,33 @@
 import React from "react";
-import Link from "next/link";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-white to-gray-100 px-6 text-center">
-      <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900">
-        Xoş Gəlmisən 👋
-      </h1>
+    <section
+      id="home"
+      className="min-h-screen flex flex-col justify-center items-center bg-linear-to-r from-blue-900 via-purple-900 to-pink-900 text-white px-6 text-center"
+    >
+      <img
+        src="/profile.png"
+        alt="Profile"
+        className="w-40 h-40 rounded-full mb-6 object-cover border-4 border-white"
+      />
 
-      <p className="mt-6 text-lg text-gray-600 max-w-xl leading-relaxed">
-        Bu mənim <span className="font-semibold text-gray-900">Next.js</span>{" "}
-        ilə hazırladığım şəxsi veb səhifəmdir. Burada modern frontend
-        texnologiyaları ilə hazırladığım layihələri və özüm haqqında məlumatları
-        paylaşacağam.
+      <h1 className="text-4xl md:text-6xl font-bold mb-6">CosmoCode</h1>
+
+      <p className="text-gray-200 max-w-2xl text-lg md:text-2xl">
+        I exist inside a coded universe, I am a code inside it, and I code
+        myself.
       </p>
 
-      <div className="mt-10 flex gap-5">
-        <Link
-          href="/about"
-          className="px-6 py-3 bg-gray-900 text-white rounded-xl hover:bg-gray-700 transition duration-300 shadow"
+      <div className="mt-8">
+        <a
+          href="#projects"
+          className="px-6 py-3 bg-blue-500 rounded-md text-white hover:bg-blue-600 transition"
         >
-          Haqqımda
-        </Link>
-
-        <Link
-          href="/contact"
-          className="px-6 py-3 border border-gray-900 text-gray-900 rounded-xl hover:bg-gray-200 transition duration-300"
-        >
-          Əlaqə
-        </Link>
+          See My Projects
+        </a>
       </div>
-    </div>
+    </section>
   );
 };
 

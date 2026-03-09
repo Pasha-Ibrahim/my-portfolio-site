@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Logo / About */}
           <div>
-            <h2 className="text-2xl font-bold text-white mb-4">PashaDev</h2>
+            <h2 className="text-2xl font-bold text-white mb-4">CosmoCode</h2>
             <p className="text-sm leading-6">
               Modern və performanslı web tətbiqlər hazırlayıram. Full Stack
               inkişaf yolundayam.
