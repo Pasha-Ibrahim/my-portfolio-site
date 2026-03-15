@@ -7,7 +7,7 @@ const Home = () => {
       className="min-h-screen flex flex-col justify-center items-center bg-linear-to-r from-blue-900 via-purple-900 to-pink-900 text-white px-6 text-center"
     >
       <img
-        src="profile.jpeg"
+        src="profile.png"
         alt="Profile"
         className="w-40 h-40 rounded-full mb-6 object-cover border-4 border-white"
       />
