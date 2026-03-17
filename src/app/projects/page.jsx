@@ -20,7 +20,7 @@ const projects = [
   },
   {
     title: "Age-Calculator",
-    image: "/agecalculator.png",
+    image: "/Agecalculator.png",
     description: "HTML CSS və JavaScript ilə hazırlanmış Age-Calculator.",
     live: "https://age-calculator-pearl-zeta.vercel.app/",
     github: "https://github.com/Pasha-Ibrahim/Age-Calculator",
